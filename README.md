@@ -2,37 +2,59 @@
 
 Este é o meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript, com o objetivo de apresentar meus estudos e projetos na área de desenvolvimento web.
 
-## 🚀 Funcionalidades
+O projeto possui uma interface simples, organizada e com alternância entre modo claro e escuro.
 
-* Alternância entre modo claro e escuro 🌗
-* Interface simples e limpa
-* Estrutura organizada em pastas
+---
 
-## 🛠️ Tecnologias utilizadas
+# 🚀 Funcionalidades
 
-* HTML5
-* CSS3
-* JavaScript
+- Alternância entre modo claro e escuro 🌗
+- Interface simples e responsiva
+- Estrutura organizada em pastas
+- Página inicial personalizada
 
-## 📂 Estrutura do projeto
+---
 
-```
-Portifolio/
+# 🛠️ Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+# 📂 Estrutura do projeto
+
+```text
+portfolio/
 │
 ├── pages/
 │   └── index.html
+│
 ├── styles/
 │   └── styles.css
-├── script/
-│   └── script.js
+│
+└── script/
+    └── script.js
 ```
 
-## 🤝 Colaboração
+---
 
-Este projeto foi desenvolvido por **Hélio Castro**, com apoio de:
+# ▶️ Como executar o projeto
 
-* Kaiky de Souza – auxílio no desenvolvimento do código
+- Baixe ou clone o repositório
+- Abra a pasta do projeto
+- Entre na pasta `pages`
+- Abra o arquivo `index.html` no navegador
 
-## 👨‍💻 Autor
+---
 
-Hélio Castro
+# 🎯 Objetivo do projeto
+
+Este projeto foi criado para praticar conceitos básicos de desenvolvimento web utilizando HTML, CSS e JavaScript.
+
+---
+
+# 👨‍💻 Autor
+
+Este projeto foi desenvolvido por **Hélio Castro**.
