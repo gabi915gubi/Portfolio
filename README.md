@@ -1,60 +1,91 @@
-# 💼 Portfólio - Hélio Castro
+# 💼 Meu Portfólio
 
-Este é o meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript, com o objetivo de apresentar meus estudos e projetos na área de desenvolvimento web.
-
-O projeto possui uma interface simples, organizada e com alternância entre modo claro e escuro.
+Este é um projeto simples de portfólio desenvolvido com **HTML, CSS e JavaScript**, com o objetivo de praticar conceitos básicos de desenvolvimento web.
 
 ---
 
-# 🚀 Funcionalidades
+## 📂 Estrutura do Projeto
 
-- Alternância entre modo claro e escuro 🌗
-- Interface simples e responsiva
-- Estrutura organizada em pastas
-- Página inicial personalizada
-
----
-
-# 🛠️ Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
-# 📂 Estrutura do projeto
-
-```text
-portfolio/
+```
+Portfólio/
 │
-├── pages/
+├── Pages/
 │   └── index.html
 │
-├── styles/
-│   └── styles.css
+├── Style/
+│   └── style.css
 │
-└── script/
+└── Script/
     └── script.js
 ```
 
 ---
 
-# ▶️ Como executar o projeto
+## 🚀 Funcionalidades
 
-- Baixe ou clone o repositório
-- Abra a pasta do projeto
-- Entre na pasta `pages`
-- Abra o arquivo `index.html` no navegador
+* Exibição de:
+
+  * Nome
+  * Biografia
+  * Curso
+  * Instituição
+* Cálculo do tempo restante para formatura 🎓
+* Botão de alternância entre:
+
+  * 🌙 Modo Escuro
+  * ☀️ Modo Claro
 
 ---
 
-# 🎯 Objetivo do projeto
+## 🛠️ Tecnologias utilizadas
 
-Este projeto foi criado para praticar conceitos básicos de desenvolvimento web utilizando HTML, CSS e JavaScript.
+* HTML5
+* CSS3
+* JavaScript
 
 ---
 
-# 👨‍💻 Autor
+## ▶️ Como executar o projeto
 
-Este projeto foi desenvolvido por **Hélio Castro**.
+1. Baixe ou clone este repositório
+2. Abra a pasta `Pages`
+3. Clique duas vezes no arquivo `index.html`
+
+Ou abra com um navegador de sua preferência.
+
+---
+
+## 📅 Informações adicionais
+
+O projeto calcula automaticamente o tempo restante até a data de formatura definida no código JavaScript.
+
+---
+
+## 📌 Objetivo
+
+Este projeto foi desenvolvido para fins de aprendizado, com foco em:
+
+* Manipulação do DOM
+* Organização de arquivos
+* Interatividade com JavaScript
+
+---
+
+## 👨‍💻 Autor
+
+Hélio Gabriel Oliveira Castro
+
+Estudante de Desenvolvimento de Sistemas - Proz Educação
+
+---
+
+## 🤝 Contribuição
+
+* Kaiky de Souza Oliveira — colaboração no desenvolvimento do projeto
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+Consulte o arquivo LICENSE para mais detalhes.
