@@ -6,7 +6,6 @@ Este é um projeto simples de portfólio desenvolvido com **HTML, CSS e JavaScri
 
 ## 📂 Estrutura do Projeto
 
-```
 Portfólio/
 │
 ├── Pages/
@@ -17,7 +16,6 @@ Portfólio/
 │
 └── Script/
     └── script.js
-```
 
 ---
 
@@ -29,11 +27,17 @@ Portfólio/
   * Biografia
   * Curso
   * Instituição
-* Cálculo do tempo restante para formatura 🎓
+
+* Cálculo automático do tempo restante para formatura 🎓
+
+* Atualização automática do dia da semana 📅
+
 * Botão de alternância entre:
 
   * 🌙 Modo Escuro
   * ☀️ Modo Claro
+
+* Alteração dinâmica de cores usando JavaScript
 
 ---
 
@@ -57,7 +61,14 @@ Ou abra com um navegador de sua preferência.
 
 ## 📅 Informações adicionais
 
-O projeto calcula automaticamente o tempo restante até a data de formatura definida no código JavaScript.
+O projeto utiliza o objeto `Date` do JavaScript para:
+
+* Calcular automaticamente o tempo restante até a formatura
+* Atualizar automaticamente o dia da semana conforme a data atual do computador
+
+A data de formatura definida atualmente no projeto é:
+
+21/12/2026
 
 ---
 
@@ -67,7 +78,11 @@ Este projeto foi desenvolvido para fins de aprendizado, com foco em:
 
 * Manipulação do DOM
 * Organização de arquivos
+* Estruturas condicionais
+* Eventos em JavaScript
 * Interatividade com JavaScript
+* Alternância de temas
+* Manipulação de datas
 
 ---
 
@@ -88,4 +103,5 @@ Estudante de Desenvolvimento de Sistemas - Proz Educação
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.
+
 Consulte o arquivo LICENSE para mais detalhes.
