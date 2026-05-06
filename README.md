@@ -2,9 +2,9 @@
 
 Este é um projeto simples de portfólio desenvolvido com **HTML, CSS e JavaScript**, com o objetivo de praticar conceitos básicos de desenvolvimento web.
 
----
-
 ## 📂 Estrutura do Projeto
+
+```text
 Portfólio/
 │
 ├── Pages/
@@ -15,8 +15,7 @@ Portfólio/
 │
 └── Script/
     └── script.js
----
-
+```
 ## 🚀 Funcionalidades
 
 * Exibição de:
