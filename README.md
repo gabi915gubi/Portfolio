@@ -4,7 +4,7 @@ Este é um projeto simples de portfólio desenvolvido com **HTML, CSS e JavaScri
 
 ---
 
-## 📂 Estrutura do Projeto
+##📂 Estrutura do Projeto
 
 Portfólio/
 │
@@ -16,7 +16,6 @@ Portfólio/
 │
 └── Script/
     └── script.js
-
 ---
 
 ## 🚀 Funcionalidades
