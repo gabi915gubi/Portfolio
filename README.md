@@ -19,7 +19,7 @@ Portfólio/
 │
 └── Script/
     └── script.js    # Lógica dinâmica e cálculos
-´´´text
+```
 
 ---
 
