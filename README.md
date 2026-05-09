@@ -19,6 +19,7 @@ Portfólio/
 │
 └── Script/
     └── script.js    # Lógica dinâmica e cálculos
+´´´text
 
 ---
 
@@ -51,7 +52,7 @@ Este projeto é uma aplicação web dinâmica desenvolvida para apresentar infor
 
 1.  Baixe ou clone este repositório:
     ```bash
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    git clone https://github.com/gabi915gubi/Portfolio
     ```
 2.  Navegue até a pasta `Pages`.
 3.  Abra o arquivo `index.html` em seu navegador de preferência.
