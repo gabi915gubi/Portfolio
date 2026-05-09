@@ -3,24 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-
+    <title>Portfólio | Hélio Gabriel</title>
     <link rel="stylesheet" href="../Style/style.css">
 </head>
 <body>
 
     <main>
+        <h1 id="titulo">Meu Portfólio de Desenvolvedor</h1>
 
-        <h1 id="titulo">Esse é o meu portfólio</h1>
+        <section id="apresentacao">
+            <h2 id="meuNome"></h2>
+            <p id="minhaBio"></p>
+            <p id="curso"></p>
+            <p id="instituicao"></p>
+        </section>
 
-        <h2 id="meuNome"></h2>
-        <p id="minhaBio"></p>
-        <p id="curso"></p>
-        <p id="instituicao"></p>
-        <p id="tempoRestante"></p>
+        <hr>
+
+        <section id="quiz-container">
+            <h3>Descubra seu Perfil Tech</h3>
+            <p>O que você prefere fazer?</p>
+            <button id="btn-visual">🎨 Criar Interfaces Visuais</button>
+            <button id="btn-logica">⚙️ Resolver Lógica e Dados</button>
+            <div id="resultado-quiz"></div>
+        </section>
+
+        <hr>
+
+        <section id="status">
+            <p id="tempoRestante"></p>
+            <p id="statusNota"></p>
+            <p id="diaAtual"></p>
+        </section>
+
+        <section id="habilidades-container">
+            <h3>Habilidades em Destaque</h3>
+            <ul id="lista-habilidades"></ul>
+        </section>
 
         <button id="modo">Modo Escuro</button>
-
     </main>
 
     <script src="../Script/script.js"></script>
