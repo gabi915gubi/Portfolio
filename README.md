@@ -20,37 +20,61 @@ Portfólio/
 └── Script/
     └── script.js    # Lógica dinâmica e cálculos
 
-🚀 Funcionalidades Implementadas
-Identidade e Perfil: Exibição dinâmica do nome (Hélio Gabriel Oliveira Castro), biografia e informações académicas via JavaScript.
+---
 
-Cálculo de Formatura: Algoritmo que calcula automaticamente o tempo restante até a graduação em 21/12/2026.
+# 🚀 Projeto de Perfil Interativo
 
-Modo Escuro Interativo: Alternância entre temas claro e escuro com transições suaves.
+Este projeto é uma aplicação web dinâmica desenvolvida para apresentar informações acadêmicas e profissionais, focando na manipulação do DOM e na experiência do usuário (UX) através de funcionalidades interativas.
 
-Quiz de Perfil Tech: Seção interativa para escolha entre perfis Front-End ou Back-End.
+---
 
-Habilidades Dinâmicas: Lista de competências renderizada automaticamente a partir de um array de objetos.
+## ✨ Funcionalidades Implementadas
 
-Status em Tempo Real: Atualização automática do dia da semana e validação de status académico.
+* **Identidade e Perfil:** Exibição dinâmica via JavaScript do nome (**Hélio Gabriel Oliveira Castro**), biografia, curso (Desenvolvimento de Sistemas) e instituição (Proz Educação).
+* **🎓 Cálculo de Formatura:** Algoritmo que calcula automaticamente anos, meses e dias restantes até a graduação (prevista para **21/12/2026**).
+* **🌓 Modo Escuro Interativo:** Botão que alterna entre os temas claro e escuro, modificando dinamicamente as cores de fundo, textos e elementos via manipulação de classes CSS.
+* **🧠 Quiz de Perfil Tech:** Seção interativa de escolha (Interfaces vs. Lógica) com feedback visual imediato ao usuário.
+* **⚡ Habilidades Dinâmicas:** Renderização automática de competências (ex: Criatividade e Adaptabilidade) a partir de uma estrutura de dados no código.
+* **🕒 Status em Tempo Real:** Atualização automática do dia da semana e exibição do status acadêmico atualizado via lógica condicional.
 
-🛠️ Tecnologias Utilizadas
-HTML5: Estruturação semântica.
+---
 
-CSS3: Design responsivo e variáveis de cores para temas.
+## 🛠️ Tecnologias Utilizadas
 
-JavaScript (ES6+): Manipulação do DOM, eventos e objeto Date.
+* **HTML5:** Estruturação semântica do conteúdo.
+* **CSS3:** Design responsivo, estilização moderna e transições suaves de cores (0.3s).
+* **JavaScript (ES6+):** Manipulação intensiva do DOM, lógica de datas e ouvintes de eventos (`addEventListener`).
 
-▶️ Como Executar o Projeto
-Baixe ou clone este repositório.
+---
 
-Navegue até a pasta Pages.
+## ▶️ Como Executar o Projeto
 
-Abra o arquivo index.html em qualquer navegador.
+1.  Baixe ou clone este repositório:
+    ```bash
+    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    ```
+2.  Navegue até a pasta `Pages`.
+3.  Abra o arquivo `index.html` em seu navegador de preferência.
 
-👨‍💻 Autor e Colaboração
-Autor: Hélio Gabriel Oliveira Castro — Estudante de Desenvolvimento de Sistemas (Proz Educação).
+---
 
-Colaboração: Kaiky de Souza Oliveira.
+## 📌 Objetivos de Aprendizado
 
-📄 Licença
-Este projeto está sob a licença MIT.
+Este projeto foi construído para consolidar conhecimentos em:
+* **Manipulação do DOM:** Alteração de estados e estilos em tempo real.
+* **Lógica de Datas:** Cálculos complexos de períodos de tempo.
+* **Interatividade:** Gestão de eventos e respostas ao usuário.
+* **Clean Code:** Organização e separação clara de responsabilidades entre arquivos.
+
+---
+
+## 👨‍💻 Autor e Colaboração
+
+* **Autor:** Hélio Gabriel Oliveira Castro
+* **Colaboração:** Kaiky de Souza Oliveira.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
