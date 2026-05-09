@@ -1,108 +1,56 @@
 # 💼 Meu Portfólio
 
-Este é um projeto simples de portfólio desenvolvido com **HTML, CSS e JavaScript**, com o objetivo de praticar conceitos básicos de desenvolvimento web.
+Este é um projeto de portfólio pessoal desenvolvido para consolidar conhecimentos em **HTML, CSS e JavaScript**, com foco em interatividade e manipulação dinâmica de dados.
 
 ---
 
 ## 📂 Estrutura do Projeto
 
+O projeto está organizado em diretórios para separar as responsabilidades:
+
 ```text
 Portfólio/
 │
 ├── Pages/
-│   └── index.html
+│   └── index.html   # Estrutura semântica e conteúdo
 │
 ├── Style/
-│   └── style.css
+│   └── style.css    # Estilização e suporte ao modo escuro
 │
 └── Script/
-    └── script.js
-```
----
+    └── script.js    # Lógica dinâmica e cálculos
 
-## 🚀 Funcionalidades
+🚀 Funcionalidades Implementadas
+Identidade e Perfil: Exibição dinâmica do nome (Hélio Gabriel Oliveira Castro), biografia e informações académicas via JavaScript.
 
-* Exibição de:
+Cálculo de Formatura: Algoritmo que calcula automaticamente o tempo restante até a graduação em 21/12/2026.
 
-  * Nome
-  * Biografia
-  * Curso
-  * Instituição
+Modo Escuro Interativo: Alternância entre temas claro e escuro com transições suaves.
 
-* Cálculo automático do tempo restante para formatura 🎓
+Quiz de Perfil Tech: Seção interativa para escolha entre perfis Front-End ou Back-End.
 
-* Atualização automática do dia da semana 📅
+Habilidades Dinâmicas: Lista de competências renderizada automaticamente a partir de um array de objetos.
 
-* Botão de alternância entre:
+Status em Tempo Real: Atualização automática do dia da semana e validação de status académico.
 
-  * 🌙 Modo Escuro
-  * ☀️ Modo Claro
+🛠️ Tecnologias Utilizadas
+HTML5: Estruturação semântica.
 
-* Alteração dinâmica de cores usando JavaScript
+CSS3: Design responsivo e variáveis de cores para temas.
 
----
+JavaScript (ES6+): Manipulação do DOM, eventos e objeto Date.
 
-## 🛠️ Tecnologias utilizadas
+▶️ Como Executar o Projeto
+Baixe ou clone este repositório.
 
-* HTML5
-* CSS3
-* JavaScript
+Navegue até a pasta Pages.
 
----
+Abra o arquivo index.html em qualquer navegador.
 
-## ▶️ Como executar o projeto
+👨‍💻 Autor e Colaboração
+Autor: Hélio Gabriel Oliveira Castro — Estudante de Desenvolvimento de Sistemas (Proz Educação).
 
-1. Baixe ou clone este repositório
-2. Abra a pasta `Pages`
-3. Clique duas vezes no arquivo `index.html`
+Colaboração: Kaiky de Souza Oliveira.
 
-Ou abra com um navegador de sua preferência.
-
----
-
-## 📅 Informações adicionais
-
-O projeto utiliza o objeto `Date` do JavaScript para:
-
-* Calcular automaticamente o tempo restante até a formatura
-* Atualizar automaticamente o dia da semana conforme a data atual do computador
-
-A data de formatura definida atualmente no projeto é:
-
-21/12/2026
-
----
-
-## 📌 Objetivo
-
-Este projeto foi desenvolvido para fins de aprendizado, com foco em:
-
-* Manipulação do DOM
-* Organização de arquivos
-* Estruturas condicionais
-* Eventos em JavaScript
-* Interatividade com JavaScript
-* Alternância de temas
-* Manipulação de datas
-
----
-
-## 👨‍💻 Autor
-
-Hélio Gabriel Oliveira Castro
-
-Estudante de Desenvolvimento de Sistemas - Proz Educação
-
----
-
-## 🤝 Contribuição
-
-* Kaiky de Souza Oliveira — colaboração no desenvolvimento do projeto
-
----
-
-## 📄 Licença
-
+📄 Licença
 Este projeto está sob a licença MIT.
-
-Consulte o arquivo LICENSE para mais detalhes.
