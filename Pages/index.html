@@ -2,47 +2,58 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Hélio Gabriel</title>
+    <title>Portfólio</title>
+
+    <!-- caminho correto -->
     <link rel="stylesheet" href="../Style/style.css">
 </head>
 <body>
 
-    <main>
-        <h1 id="titulo">Meu Portfólio de Desenvolvedor</h1>
+    <h1>Meu Portfólio de Desenvolvedor</h1>
 
-        <section id="apresentacao">
-            <h2 id="meuNome"></h2>
-            <p id="minhaBio"></p>
-            <p id="curso"></p>
-            <p id="instituicao"></p>
-        </section>
+    <section>
+        <h2 id="meuNome"></h2>
+        <p id="minhaBio"></p>
+        <p id="curso"></p>
+        <p id="instituicao"></p>
+    </section>
 
-        <hr>
+    <hr>
 
-        <section id="quiz-container">
-            <h3>Descubra seu Perfil Tech</h3>
-            <p>O que você prefere fazer?</p>
-            <button id="btn-visual">🎨 Criar Interfaces Visuais</button>
-            <button id="btn-logica">⚙️ Resolver Lógica e Dados</button>
-            <div id="resultado-quiz"></div>
-        </section>
+    <!-- IMPORTANTE: id igual ao CSS -->
+    <section id="quiz-container">
+        <h3>Descubra seu Perfil Tech</h3>
+        <button id="btn-visual">🎨 Front-End</button>
+        <button id="btn-logica">⚙️ Back-End</button>
+        <div id="resultado-quiz"></div>
+    </section>
 
-        <hr>
+    <hr>
 
-        <section id="status">
-            <p id="tempoRestante"></p>
-            <p id="statusNota"></p>
-            <p id="diaAtual"></p>
-        </section>
+    <section>
+        <p id="tempoRestante"></p>
+        <p id="statusNota"></p>
+        <p id="diaAtual"></p>
+    </section>
 
-        <section id="habilidades-container">
-            <h3>Habilidades em Destaque</h3>
-            <ul id="lista-habilidades"></ul>
-        </section>
+    <hr>
 
-        <button id="modo">Modo Escuro</button>
-    </main>
+    <section>
+        <h3>Habilidades</h3>
+        <ul id="lista-habilidades"></ul>
+    </section>
+
+    <hr>
+
+    <!-- PROJETOS -->
+    <section>
+        <h3>Meus Projetos</h3>
+        <div id="lista-projetos"></div>
+    </section>
+
+    <br>
+
+    <button id="modo">Modo Escuro</button>
 
     <script src="../Script/script.js"></script>
 </body>
