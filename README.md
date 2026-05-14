@@ -112,6 +112,7 @@ Atualização automática de:
 
 ---
 
+
 # 📸 Funcionalidades Trabalhadas
 
 * Manipulação de elementos HTML
@@ -122,6 +123,9 @@ Atualização automática de:
 * Cálculo de datas
 * Atualização dinâmica de conteúdo
 * Organização de código
+* Modularização com funções
+* Separação de responsabilidades
+* Reutilização de código
 
 ---
 
