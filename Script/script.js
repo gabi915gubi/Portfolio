@@ -250,7 +250,6 @@ function calcularTempoRestante() {
     let diasRestantes =
         diaFormatura - diaAtual;
 
-    // Ajustar dias
     const ajusteDias =
         ajustarDias(
             diasRestantes,
@@ -263,7 +262,6 @@ function calcularTempoRestante() {
     mesesRestantes =
         ajusteDias.meses;
 
-    // Ajustar meses
     const ajusteMeses =
         ajustarMeses(
             mesesRestantes,
@@ -296,8 +294,7 @@ function formatarMensagemFormatura(
         tempo.anosRestantes <= 0
     ) {
 
-        return
-            "Já me formei! 🎓";
+        return "Já me formei! 🎓";
 
     }
 
@@ -305,8 +302,7 @@ function formatarMensagemFormatura(
         tempo.anosRestantes === 1
     ) {
 
-        return
-            "Falta 1 ano para minha formatura 🎓";
+        return "Falta 1 ano para minha formatura 🎓";
 
     }
 
@@ -565,6 +561,40 @@ function configurarModoEscuro() {
 }
 
 // ==========================
+// INPUT VALUE
+// ==========================
+
+function configurarInput() {
+
+    const botao =
+        obterElemento("btnNome");
+
+    botao.addEventListener(
+
+        "click",
+
+        function () {
+
+            const valorInput =
+
+                obterElemento(
+                    "nomeInput"
+                ).value;
+
+            obterElemento(
+                "resultadoNome"
+            ).innerText =
+
+                "Olá, " +
+                valorInput;
+
+        }
+
+    );
+
+}
+
+// ==========================
 // FUNÇÕES DE PROJETOS
 // ==========================
 
@@ -662,6 +692,8 @@ function iniciarSistema() {
     configurarModoEscuro();
 
     mostrarProjetos();
+
+    configurarInput();
 
 }
 
