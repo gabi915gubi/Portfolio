@@ -1,20 +1,30 @@
-# 💼 Meu Portfólio
+# 💼 Meu Portfólio de Desenvolvedor
 
-Projeto de portfólio pessoal desenvolvido para consolidar conhecimentos em **HTML5, CSS3 e JavaScript**, com foco em:
+Projeto de portfólio pessoal desenvolvido com **HTML5, CSS3 e JavaScript**, focado em prática de:
 
 * Manipulação do DOM
-* Interatividade
-* Lógica de programação
+* Funções em JavaScript
+* Eventos
+* Arrays e objetos
+* Estruturas condicionais
 * Organização de código
-* Experiência do usuário (UX)
+* Interatividade
 
 ---
 
 # 🚀 Sobre o Projeto
 
-Este projeto apresenta informações acadêmicas e profissionais de forma dinâmica e interativa, utilizando JavaScript puro para atualização de conteúdos em tempo real.
+Este projeto apresenta informações pessoais, acadêmicas e projetos de forma dinâmica e interativa utilizando JavaScript puro.
 
-O objetivo principal foi praticar conceitos fundamentais do desenvolvimento front-end enquanto construo um portfólio funcional e organizado.
+O sistema possui funcionalidades como:
+
+* Exibição dinâmica de dados;
+* Quiz interativo;
+* Modo escuro;
+* Cálculo automático da formatura;
+* Lista dinâmica de habilidades;
+* Renderização de projetos;
+* Manipulação de input do usuário.
 
 ---
 
@@ -39,54 +49,73 @@ Portfólio/
 
 ## 👤 Perfil Dinâmico
 
-Exibição automática de:
+Exibe automaticamente:
 
 * Nome
 * Biografia
 * Curso
 * Instituição
 
----
-
-## 🎓 Cálculo de Formatura
-
-Algoritmo que calcula automaticamente:
-
-* anos;
-* meses;
-* dias restantes até a formatura.
-
-**Previsão de conclusão:** `21/12/2026`
+utilizando manipulação do DOM.
 
 ---
 
-## 🌓 Modo Escuro
+## ⌨️ Input Interativo
 
-Alternância entre:
+O usuário pode digitar seu nome e receber uma mensagem personalizada na tela.
 
-* tema claro;
-* tema escuro;
+Exemplo:
 
-com atualização dinâmica da interface.
+```text
+Olá, Hélio
+```
 
 ---
 
 ## 🧠 Quiz de Perfil Tech
 
-Sistema interativo onde o usuário escolhe entre:
+Sistema de escolha entre:
 
-* Front-End 🎨
-* Back-End ⚙️
+* 🎨 Front-End
+* ⚙️ Back-End
 
-com feedback visual imediato.
+com resposta dinâmica exibida na interface.
+
+---
+
+## 🎓 Contador para Formatura
+
+O sistema calcula automaticamente:
+
+* anos;
+* meses;
+* dias restantes;
+
+até a data da formatura.
+
+### 📅 Previsão de conclusão
+
+```text
+21/12/2026
+```
+
+---
+
+## 🕒 Informações Dinâmicas
+
+Exibição automática de:
+
+* Dia atual da semana;
+* Nota do aluno;
+* Status de aprovação.
 
 ---
 
 ## ⚡ Habilidades Dinâmicas
 
-As habilidades são renderizadas automaticamente via JavaScript utilizando arrays e manipulação do DOM.
+As habilidades são renderizadas automaticamente utilizando arrays e criação dinâmica de elementos HTML.
 
-Exemplos:
+### Habilidades atuais
 
 * Criatividade
 * Adaptabilidade
@@ -94,38 +123,72 @@ Exemplos:
 
 ---
 
-## 🕒 Informações em Tempo Real
+## 📁 Projetos Dinâmicos
 
-Atualização automática de:
+Os projetos são exibidos automaticamente via JavaScript utilizando objetos e arrays.
 
-* dia da semana;
-* status acadêmico;
-* nota do aluno.
+### Projetos adicionados
+
+#### 🔹 RECIBO-QR-CODE
+
+Sistema em Python para cadastro de pagamentos, geração de recibos e QR Code.
+
+**Tecnologias:**
+
+* Python
+* Tkinter
+* SQLite
+* qrcode
+* Pillow
+
+---
+
+#### 🔹 SISTEMA-DE-ESTACIONAMENTO
+
+Sistema de gerenciamento de estacionamento com interface gráfica.
+
+**Tecnologias:**
+
+* Python
+* SQLite
+* Tkinter
+* ReportLab
+
+---
+
+## 🌓 Modo Escuro
+
+Alternância entre:
+
+* Tema claro;
+* Tema escuro;
+
+com atualização dinâmica da interface.
 
 ---
 
 # 🛠️ Tecnologias Utilizadas
 
-* **HTML5** → Estrutura semântica
-* **CSS3** → Estilização e responsividade
-* **JavaScript (ES6+)** → Lógica, eventos e manipulação do DOM
+* **HTML5** → Estrutura da página
+* **CSS3** → Estilização e efeitos visuais
+* **JavaScript (ES6+)** → Lógica e interatividade
 
 ---
 
+# 📸 Conceitos Trabalhados
 
-# 📸 Funcionalidades Trabalhadas
-
-* Manipulação de elementos HTML
+* Manipulação do DOM
 * Eventos com `addEventListener`
 * Arrays e objetos
 * Estruturas condicionais
 * Estruturas de repetição
-* Cálculo de datas
-* Atualização dinâmica de conteúdo
-* Organização de código
-* Modularização com funções
+* Criação dinâmica de elementos
+* Template Strings
+* Organização de funções
 * Separação de responsabilidades
 * Reutilização de código
+* Cálculo de datas
+* Interatividade com usuário
 
 ---
 
@@ -137,9 +200,9 @@ Atualização automática de:
 git clone https://github.com/gabi915gubi/Portfolio
 ```
 
-2. Acesse a pasta do projeto.
+2. Abra a pasta do projeto.
 
-3. Abra o arquivo:
+3. Execute o arquivo:
 
 ```text
 Pages/index.html
@@ -149,26 +212,30 @@ no navegador.
 
 ---
 
-# 📌 Objetivos de Aprendizado
+# 📚 Objetivo do Projeto
 
-Este projeto foi desenvolvido para fortalecer conhecimentos em:
+Este projeto foi desenvolvido para praticar:
 
 * JavaScript
 * DOM
 * Eventos
+* Funções
 * Lógica de programação
-* Organização de projetos
-* Desenvolvimento Front-End
+* Estruturação de projetos Front-End
 
 ---
 
 # 👨‍💻 Autor
 
-**Hélio Gabriel Oliveira Castro**
+## Hélio Gabriel Oliveira Castro
 
-### 🤝 Colaboração
+Estudante de Desenvolvimento de Sistemas na Proz Educação.
 
-Kaiky de Souza Oliveira
+---
+
+# 🤝 Colaboração
+
+Projeto desenvolvido com colaboração de **Kaiky de Souza Oliveira**.
 
 ---
 
